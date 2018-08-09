@@ -16,14 +16,14 @@ Easy!
   ```
   latest
   ```
-1. In no time the "Latest Migration: Open latest Rails migration" should be highlighted
+1. In no time the "Latest Migration: Open latest migration" should be highlighted
 1. Hit enter, and lo and behold; your latest migration!
 
 ## TODOs
 
 - [x] Amber
-- [] Phoenix
-- [] Any other ?
+- [ ] Phoenix
+- [ ] Any other ?
 
 ## Special Thanks
 
