@@ -9,15 +9,25 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
 
 ## Usage
 
-Easy!
+* Through Command Pallette 
 
 1. Open any file in your app.
-1. Bring up your command pallette (`Cmd + Shift + P` / `Ctrl + Shift + P`) and type in:
+2. Bring up your command pallette (`Cmd + Shift + P` / `Ctrl + Shift + P`) and type in:
   ```
   latest
   ```
-1. In no time the "Latest Migration: Open latest migration" should be highlighted
-1. Hit enter, and lo and behold; your latest migration!
+3. In no time the "Latest Migration: Open latest migration" should be highlighted
+4. Hit enter, and lo and behold; your latest migration!
+
+* Through Key Bindings
+
+1. Click on `Preferences > Key Bindings`
+2. In the right section you can assign any keyboard shortcut of your liking to the command, for example:
+```
+  { "keys": ["ctrl+shift+0"], "command": "latest_migration"}
+```
+3. Make sure your key combination don't collide with any other command shortcut.
+4. That is it!
 
 ## TODOs
 
