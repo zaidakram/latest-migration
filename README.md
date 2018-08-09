@@ -9,7 +9,7 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
 
 ## Usage
 
-* Through Command Pallette 
+#### Through Command Pallette 
 
 1. Open any file in your app.
 2. Bring up your command pallette (`Cmd + Shift + P` / `Ctrl + Shift + P`) and type in:
@@ -19,7 +19,7 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
 3. In no time the "Latest Migration: Open latest migration" should be highlighted
 4. Hit enter, and lo and behold; your latest migration!
 
-* Through Key Bindings
+#### Through Key Bindings
 
 1. Click on `Preferences > Key Bindings`
 2. In the right section you can assign any keyboard shortcut of your liking to the command, for example:
