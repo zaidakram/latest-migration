@@ -6,10 +6,11 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
 
   * Ruby on Rails
   * Amber
+  * Phoenix
 
 ## Usage
 
-#### Through Command Pallette 
+#### Through Command Pallette
 
 1. Open any file in your app.
 2. Bring up your command pallette (`Cmd + Shift + P` / `Ctrl + Shift + P`) and type in:
@@ -32,7 +33,7 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
 ## TODOs
 
 - [x] Amber
-- [ ] Phoenix
+- [x] Phoenix
 - [ ] Any other ?
 
 ## Special Thanks
