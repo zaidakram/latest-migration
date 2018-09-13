@@ -19,7 +19,7 @@ class LatestMigrationCommand(sublime_plugin.WindowCommand):
       'fe': 'sql',
     },
     'phoenix': {
-      'folder':'priv/repo//migrations',
+      'folder':'priv/repo/migrations',
       'expected_items': [
         'mix.exs', 'lib', 'config', 'priv'
       ],
