@@ -24,6 +24,13 @@ class LatestMigrationCommand(sublime_plugin.WindowCommand):
         'mix.exs', 'lib', 'config', 'priv'
       ],
       'fe': 'exs',
+    },
+    'laravel': {
+      'folder':'database/migrations',
+      'expected_items': [
+        'artisan', 'app', 'config', 'database'
+      ],
+      'fe': 'php',
     }
   }
 
