@@ -51,7 +51,7 @@ class LatestMigrationCommand(sublime_plugin.WindowCommand):
         cur_path = os.path.dirname(cur_path)
       root, app_type = self.find_root(cur_path)
     else:
-      raise NothingOpen("Please open a file or folder in order to search for the latest migration")
+      raise NothingOpen("Please open a file or folder in order to search for the latest migration.")
 
     if root:
       migrations_dir = os.path.join(
@@ -88,7 +88,7 @@ class LatestMigrationCommand(sublime_plugin.WindowCommand):
       # root directory! At this stage it's safe to assume that we won't come
       # across a familiar directory structure for supported app.
       if path == '/':
-        raise NotSupportedApp("Cannot recognize this file structure as a Rails, Phoenix or Amber app")
+        raise NotSupportedApp("Cannot recognize this file structure as a Rails, Phoenix, Amber or Laravel Application.")
       else:
         return self.find_root(self.parent_path(path))
 

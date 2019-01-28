@@ -35,6 +35,7 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
 
 - [x] Amber
 - [x] Phoenix
+- [x] Laravel
 - [ ] Any other ?
 
 ## Special Thanks
