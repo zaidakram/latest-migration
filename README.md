@@ -7,6 +7,7 @@ Opens the latest migration created in a supported web frameworks. Works with Sub
   * Ruby on Rails
   * Amber
   * Phoenix
+  * Laravel
 
 ## Usage
 
